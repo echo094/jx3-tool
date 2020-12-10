@@ -7,6 +7,10 @@
       <i class="el-icon-s-home"></i>
       <span>首页</span>
     </el-menu-item>
+    <el-menu-item index="/page-cps">
+      <i class="el-icon-mouse"></i>
+      <span>CPS</span>
+    </el-menu-item>
   </el-menu>
   <router-view/>
   <el-dialog
