@@ -8,6 +8,11 @@ const routes = [
     component: Home
   },
   {
+    path: '/page-skill',
+    name: 'PageSkill',
+    component: () => import('../views/PageSkill.vue')
+  },
+  {
     path: '/page-cps',
     name: 'PageCPS',
     component: () => import('../views/PageCPS.vue')
