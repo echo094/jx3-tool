@@ -16,6 +16,11 @@ const routes = [
     path: '/page-cps',
     name: 'PageCPS',
     component: () => import('../views/PageCPS.vue')
+  },
+  {
+    path: '/page-teamlist',
+    name: 'PageTeamlist',
+    component: () => import('../views/PageTeamlist.vue')
   }
 ]
 

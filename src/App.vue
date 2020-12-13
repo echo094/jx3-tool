@@ -15,6 +15,10 @@
       <i class="el-icon-mouse"></i>
       <span>CPS</span>
     </el-menu-item>
+    <el-menu-item index="/page-teamlist">
+      <i class="el-icon-notebook-1"></i>
+      <span>小本本</span>
+    </el-menu-item>
   </el-menu>
   <router-view/>
   <el-dialog
