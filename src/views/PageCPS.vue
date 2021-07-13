@@ -44,8 +44,10 @@
         </el-col>
       </el-row>
       <el-row>
-        <p>{{ guideText }}</p>
-        <el-button @click="onCmd">{{ btnText }}</el-button>
+        <el-col :span="20" :offset="2">
+          <p>{{ guideText }}</p>
+          <el-button @click="onCmd">{{ btnText }}</el-button>
+        </el-col>
       </el-row>
     </el-card>
   </div>
